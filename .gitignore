@@ -1,0 +1,44 @@
+# Yarn dependencies (NOT needed for runtime)
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+node_modules/
+.pnp.*
+
+# Build artifacts
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+public/build/
+
+# Go source and build files (not needed for cloud)
+*.go
+go.mod
+go.sum
+vendor/
+pkg/
+
+# Development files
+.vscode/
+.github/
+.husky/
+e2e/
+devenv/
+
+# Logs and databases
+*.log
+data/*.db
+data/log/
+
+# Git
+.git/
+
+# Testing
+**/*_test.go
+*.test
+
+# Documentation source
+docs/sources/
+
+# Makefile (dev only)
+Makefile*
