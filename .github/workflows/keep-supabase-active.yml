@@ -1,0 +1,16 @@
+name: Keep Supabase Active
+
+on:
+  schedule:
+    # Runs every 3 days at 3 AM UTC (8:30 AM IST)
+    - cron: '0 3 */3 * *'
+  workflow_dispatch: # Manual trigger option
+
+jobs:
+  ping-database:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Grafana (which pings Supabase)
+        run: |
+          curl -f https://akmind.fly.dev/api/health || curl -f https://akmind.fly.dev/login
+          echo "Database pinged successfully at $(date)"

@@ -1,0 +1,28 @@
+{
+  "type": "panel",
+  "name": "FlowCharting",
+  "id": "flowcharting",
+  "info": {
+    "description": "Flowcharting panel. Display complex diagrams using draw.io",
+    "author": {
+      "name": "AKMind Team",
+      "url": "https://github.com/algenty/grafana-flowcharting"
+    },
+    "keywords": [
+      "flowchart",
+      "panel",
+      "diagram",
+      "workflow",
+      "draw.io",
+      "visio"
+    ],
+    "logos": {
+      "small": "img/agenty-flowcharting.svg",
+      "large": "img/agenty-flowcharting.svg"
+    }
+  },
+  "dependencies": {
+    "grafanaVersion": "8.5.x",
+    "plugins": []
+  }
+}
