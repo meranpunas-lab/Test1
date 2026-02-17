@@ -1,0 +1,16 @@
+{
+  "type": "panel",
+  "name": "Image Save",
+  "id": "imagesave",
+  "skipDataQuery": true,
+  "info": {
+    "description": "Upload and display images on dashboards with responsive scaling and customizable backgrounds",
+    "author": {
+      "name": "AKMind Team"
+    },
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    }
+  }
+}
